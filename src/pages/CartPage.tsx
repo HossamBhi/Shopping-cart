@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { Link } from "react-router-dom";
-import ProductCard from "../components/cart/ProductCard";
+import { ProductCard } from "../components/common";
 import { useCart } from "../hooks/useCart";
 
 const CartPage = () => {

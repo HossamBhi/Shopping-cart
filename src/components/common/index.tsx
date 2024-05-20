@@ -1,3 +1,4 @@
+import ProductCard from "./ProductCard";
 import QuantityHandler from "./QuantityHandler";
 
-export { QuantityHandler };
+export { ProductCard, QuantityHandler };

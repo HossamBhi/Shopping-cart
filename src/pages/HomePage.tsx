@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useQuery } from "react-query";
-import ProductCard from "../components/home/ProductCard";
+import { ProductCard } from "../components/common";
 import { LogoLoader } from "../components/ui";
 import { productType } from "../utils/types";
 
