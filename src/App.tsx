@@ -1,9 +1,10 @@
-function App() {
-  return (
-    <div className="w-full h-screen flex justify-center items-center">
-      <h1 className="font-bold text-center text-9xl">Welcome</h1>
-    </div>
-  );
-}
+import Layout from "./pages/Layout";
+import Providers from "./providers";
+
+const App = () => (
+  <Providers>
+    <Layout />
+  </Providers>
+);
 
 export default App;
