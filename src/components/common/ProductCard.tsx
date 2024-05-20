@@ -10,7 +10,7 @@ const ProductCard = ({ product }: { product: productType }) => (
     />
     <div className="flex justify-between pt-2">
       <h3 className="text-md font-bold">{product.title}</h3>
-      <p>£{product.price.toFixed(2)}</p>
+      <p role="price">£{product.price.toFixed(2)}</p>
     </div>
     <p className="truncate text-sm opacity-50">{product.description}</p>
     <QuantityHandler product={product} />
