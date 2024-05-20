@@ -2,7 +2,7 @@ import { productType } from "../../utils/types";
 import { QuantityHandler } from "../common";
 
 const ProductCard = ({ product }: { product: productType }) => (
-  <div className="flex flex-col rounded-sm bg-background-card p-5">
+  <div data-testid="product" className="flex flex-col rounded-sm bg-background-card p-5">
     <img
       alt={product.title}
       src={product.thumbnail}
