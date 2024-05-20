@@ -1,13 +1,13 @@
 export type productType = {
-  brand: string;
-  category: string;
+  brand?: string;
+  category?: string;
   description: string;
-  discountPercentage: number;
+  discountPercentage?: number;
   id: number;
-  images: string[];
+  images?: string[];
   price: number;
-  rating: number;
-  stock: number;
+  rating?: number;
+  stock?: number;
   thumbnail: string;
   title: string;
 };

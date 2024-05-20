@@ -16,7 +16,7 @@ const QuantityHandler = ({ product }: { product: productType }) => {
   return (
     <div className="gap-3 flex items-center justify-between mt-6">
       <CustomButton onClick={() => removeFromCart(product)}>-</CustomButton>
-      <span>{cartItem.quantity}</span>
+      <span role="quantity">{cartItem.quantity}</span>
       <CustomButton onClick={() => addToCart(product)}>+</CustomButton>
     </div>
   );
